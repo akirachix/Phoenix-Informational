@@ -1,0 +1,116 @@
+.about-text{
+    text-align: center;
+   }
+  .mission-image{
+      height: 20%;
+  }
+  .vision-image{
+      height: 20%;
+  }
+  .goal-image{
+       width: 55%; 
+      height: 20%;
+      /* margin-right: 45%; */
+  }
+  .about{
+      display: flex;
+      /* justify-content: space-evenly; */
+      /* justify-content: center; */
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+  
+  @media screen and (min-width:280px) and (max-width:480px){
+      .about-text{
+          text-align: center;
+          font-size: 10px;
+         }
+        .mission-image{
+            height: 20%;
+            width: 20%;
+        }
+        .vision-image{
+            height: 20%;
+            width: 20%;
+        }
+        .goal-image{
+             width: 30%; 
+            height: 20%;
+            /* margin-right: 45%; */
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-evenly; */
+            /* justify-content: center; */
+            /* margin-left: 5%; */
+            margin-top: 5%;
+            font-size: smaller;
+        }
+        .mission-text{
+          font-size: smaller;
+        }
+        .vision-text{
+          font-size: smaller;
+        }
+        .goal-text{
+          font-size: smaller;
+        }
+  
+      
+  }
+  @media screen and (min-width:481px) and (max-width:768px){
+      .about-text{
+          text-align: center;
+         }
+        .mission-image{
+            height: 15%;
+            width: 25%;
+        }
+        .vision-image{
+          width: 20%;
+            height: 15%;
+        }
+        .goal-image{
+             width: 50%; 
+            height: 15%;
+            /* margin-right: 45%; */
+        }
+        .about{
+            display: flex;
+            /* justify-content: space-evenly; */
+            /* justify-content: center; */
+            /* margin-left: 5%; */
+            margin-top: 5%;
+        }
+      }
+        @media screen and (min-width:769px ) and (max-width:1025px){
+          .about-text{
+              text-align: center;
+             }
+            .mission-image{
+                height: 20%;
+                width: 20%;
+            }
+            .vision-image{
+                height: 20%;
+                width: 20%;
+            }
+            .goal-image{
+                 width: 55%; 
+                height: 20%;
+                /* margin-right: 45%; */
+            }
+            .about{
+                display: flex;
+                /* flex-wrap: wrap; */
+                /* justify-content: space-evenly; */
+                /* justify-content: center; */
+                /* margin-left: 5%; */
+                margin-top: 5%;
+            }
+        }
+  
+      
+  
+  

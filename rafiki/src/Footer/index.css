@@ -1,0 +1,128 @@
+
+
+.footerWhole{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.Container{
+    background-color:rgb(201, 201, 232);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding-block-end: 10px;
+}
+
+.Icon{
+    block-size: 32px;
+    inline-size: 32px;
+    padding-inline-start: 5px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+/* @media screen and (min-inline-size:240px) and (max-inline-size: 540px){
+
+    .footerWhole{
+       
+        flex-direction: column;
+        padding-inline-start: 100px;
+        font-size: 12px;
+    
+        
+    }
+    
+    .Container{
+        font-size: 0.5em;
+        margin-inline-start: -1%;
+        margin-inline-end: -1%;
+        padding-block-end: 10px;
+        
+        
+    }
+    
+    .Icon{
+        block-size: 24px;
+        inline-size: 24px;
+        
+       
+    }
+    
+    
+}
+    
+ @media screen and (min-inline-size:541px) and (max-inline-size: 840px){
+
+    .footerWhole{
+       
+        flex-direction: column;
+        padding-inline-start: 100px;
+        font-size: 17px;
+    
+        
+    }
+    
+    .Container{
+        font-size: 0.6em;
+        margin-inline-start: -1%;
+        margin-inline-end: -1%;
+        padding-block-end: 10px;
+        
+        
+    }
+    
+    .Icon{
+        block-size: 30px;
+        inline-size: 30px;
+        
+       
+    }}
+
+
+  
+    
+    @media screen and (min-inline-size:841px) and (max-inline-size: 1280px){
+
+        .footerWhole{
+           
+            
+            padding-inline-start: 100px;
+            font-size: 20px;
+        
+            
+        }
+        
+        .Container{
+            font-size: 0.6em;
+             padding-block-end: 10px;
+            
+            
+        }
+        
+        .Icon{
+            block-size: 24px;
+            inline-size: 24px;
+            
+           
+        }
+        
+        
+    }
+        
+    
+    
+    
+    
+
+    
+
+ */
+
+
+
+
+    
+  

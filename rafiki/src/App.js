@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const LearnWithUs = ()=>{
+  return(
+      <div>
+          <h1 className="heading">
+              Learn With Us 
+          </h1 >
+          <section className="learnWithUs">
+           <img src="/Images/students.png"alt="girl studying" className="image"></img>
+           <section className="text">
+             <p>Learning students are happy students.</p>
+             <p>Happy students make happy parents.</p>
+             <p>We give parents a hand while</p>
+             <p>giving students the tools to succeed. </p>
+           </section>
+           
+          </section>
+      </div>
+  )
 }
-
-export default App;
+export default LearnWithUs;

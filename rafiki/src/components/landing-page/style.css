@@ -8,7 +8,7 @@
     font-size: 32px;
     font-weight: 600;
     padding: 20px;
-    padding-left: 100px;
+    padding-right: 40%;
     width: 50%;
 }
 .landing-page-text h1{
@@ -17,10 +17,13 @@
 .landing-page-text p{
     font-size: 40px;
 }
-.landing-page-image{
-    width: 50%;
+/* .landing-page-image{
+    width: 80%;
+} */
+.image-students{
+    width: auto;
+    margin-left: 32%;
 }
-
 .get-started{
     display: flex;
     align-items: center;
@@ -46,18 +49,111 @@
 
 
 
-
-
 @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .landing-page-text {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .landing-page-text h1 {
+        color: #0e488a;
+        font-size: 30px;
+    }
+    .landing-page-text p {
+        font-size: 20px;
+    }
+    .get-started {
+        display: flex;
+        align-items: center;
+    }
+    .image-students{
+        width: auto;
+        margin-left: 0;
+        width: 80%;
+    }
+    .get-started button {
+        width: 50%;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #50C878;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .get-started button:active {
+        border-color: rgb(64, 128, 64);
+        color: rgb(64, 128, 64);
+        background-color: white;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .container {
+        display: flex;
+ 
+    }
+    .landing-page-text {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 50px;
+        padding-left: 80px;
+        
+    }
+    .landing-page-text h1 {
+        color: #0e488a;
+        font-size: 30px;
+    }
+    .landing-page-text p {
+        font-size: 20px;
+    }
+    .get-started {
+        display: flex;
+        align-items: center;
+    }
+    .image-students{
+        width: auto;
+        margin-left: 0;
+        width: 80%;
+    }
+    .get-started button {
+        width: 50%;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #50C878;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .get-started button:active {
+        border-color: rgb(64, 128, 64);
+        color: rgb(64, 128, 64);
+        background-color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px){
     .container{
         display: flex;
         gap: 20px;
-        width: 100%;
     
         
     }
     .landing-page-text{
-        
         font-size: 32px;
         font-weight: 600;
         padding: 20px;
@@ -66,13 +162,12 @@
     }
     .landing-page-text h1{
         color: #0e488a;
-        font-size: 30px;
     }
     .landing-page-text p{
-        font-size: 20px;
+        font-size: 40px;
     }
     .landing-page-image{
-        width: 40%;
+        width: 60%;
     }
     
     .get-started{
@@ -80,7 +175,7 @@
         align-items: center;
     }
     .get-started button{
-        width: 70%;
+        width: 30%;
         height: 50px;
         outline: none;
         border: none;
@@ -97,53 +192,4 @@
         background: white;
     }
 
-}
-
-
-@media screen and (min-width: 601px) and (max-width: 1024px){
-    .container{
-        display: flex;
-        /* gap: 10px; */
-        width: auto;
-    
-        
-    }
-    .landing-page-text{
-        font-size: 20px;
-        font-weight: 600;
-        padding: 20px;
-        padding-left: 50px;
-        /* width: 40%; */
-    }
-    .landing-page-text h1{
-        color: #0e488a;
-    }
-    .landing-page-text p{
-        font-size: 20px;
-    }
-    .landing-page-image{
-        width: 60%;
-    }
-    
-    .get-started{
-        display: flex;
-        align-items: center;
-    }
-    .get-started button{
-        width: 60%;
-        height: 50px;
-        outline: none;
-        border: none;
-        border-radius: 20px;
-        background-color: #50C878;
-        color: black;
-        font-size: 20px;
-        font-weight: 500;
-        cursor: pointer;
-    }
-    .get-started button:active{
-        border: 1px solid rgb(64, 128, 64);
-        color: rgb(64, 128, 64);
-        background: white;
-    }
 }

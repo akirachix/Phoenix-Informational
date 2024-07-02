@@ -17,7 +17,7 @@ const index = () => {
       </div>
 
       <div className='landing-page-image'>
-        <img src={Students} alt=''/>
+        <img src={Students} alt='' className='image-students'/>
       </div>
     </div>
   );

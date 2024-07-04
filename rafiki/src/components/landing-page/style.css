@@ -1,18 +1,22 @@
 .container{
     display: flex;
     gap: 20px;
+    padding-top: 0%;
 
     
 }
 .landing-page-text{
-    font-size: 32px;
-    font-weight: 600;
+   
+    /* font-weight: 600; */
     padding: 20px;
-    padding-right: 40%;
+    padding-right: 60px;
     width: 50%;
+    margin-top: 50px;
+    margin-left: 2%;
 }
 .landing-page-text h1{
-    color: #0e488a;
+    color: #082a52;
+    font-size: 60px;
 }
 .landing-page-text p{
     font-size: 40px;
@@ -22,22 +26,23 @@
 } */
 .image-students{
     width: auto;
-    margin-left: 32%;
+    margin-left:5%;
+    width: 84%;
 }
 .get-started{
     display: flex;
     align-items: center;
 }
 .get-started button{
-    width: 30%;
-    height: 50px;
+    width: 181px;
+    height: 40px;
     outline: none;
     border: none;
     border-radius: 20px;
     background-color: #50C878;
     color: black;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 600;
     cursor: pointer;
 }
 .get-started button:active{
@@ -52,7 +57,6 @@
 @media only screen and (max-width: 600px) {
     .container {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         
     }
@@ -61,9 +65,12 @@
         font-weight: 300;
         padding: 10px;
         padding-left: 20px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 5%;
     }
     .landing-page-text h1 {
-        color: #0e488a;
+        color: #0a3464;
         font-size: 30px;
     }
     .landing-page-text p {
@@ -80,7 +87,7 @@
     }
     .get-started button {
         width: 50%;
-        height: 50px;
+        height: 30px;
         outline: none;
         border: none;
         border-radius: 20px;
@@ -108,14 +115,17 @@
         font-weight: 300;
         padding: 50px;
         padding-left: 80px;
+        margin-top: 10px;
+        margin-left: 0;
         
     }
     .landing-page-text h1 {
         color: #0e488a;
-        font-size: 30px;
+        font-size: 40px;
+
     }
     .landing-page-text p {
-        font-size: 20px;
+        font-size: 25px;
     }
     .get-started {
         display: flex;
@@ -127,14 +137,14 @@
         width: 80%;
     }
     .get-started button {
-        width: 50%;
+        width: 40%;
         height: 30px;
         outline: none;
         border: none;
         border-radius: 20px;
         background-color: #50C878;
         color: black;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         cursor: pointer;
     }

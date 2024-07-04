@@ -9,7 +9,7 @@ const index = () => {
         <h1>Learn with Rafiki</h1>
         <p>Get the feel of a real 
           <br/>classroom</p>
-        <br/>
+        
         
         <div className='get-started'>
             <button>Get Started</button>

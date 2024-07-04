@@ -1,19 +1,44 @@
 
 
-.footerWhole{
+.footercontent{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-.Container{
-    background-color:rgb(201, 201, 232);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.aboutus{
+    display: flex;
+    flex-direction: column;  
     
-    padding-block-end: 10px;
+     
 }
 
-.Icon{
+.link{
+    text-decoration: none;
+    color: black;  
+}
+
+.link:hover{
+    color: blue;
+}
+
+.contactus{
+    margin-top: 35px;
+}
+
+.connect{
+    margin-top: 35px;
+}
+
+.footer{
+    background-color:#D9D9D9;
+    margin-top: 20px;
+    padding-block-end: 10px;
+    
+}
+
+.icon{
     block-size: 32px;
     inline-size: 32px;
     padding-inline-start: 5px;
@@ -24,102 +49,409 @@
 }
 
 
-/* @media screen and (min-inline-size:240px) and (max-inline-size: 540px){
+ @media only screen and (min-width:300px) and (max-width: 349px){
 
-    .footerWhole{
-       
-        flex-direction: column;
-        padding-inline-start: 100px;
-        font-size: 12px;
-    
-        
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 18px;
+        margin-left: -49%;     
+    }
+
+    .heading{
+        font-size: 20px;    
     }
     
-    .Container{
-        font-size: 0.5em;
-        margin-inline-start: -1%;
-        margin-inline-end: -1%;
+    .copyright{
+        margin-left: -48%;
+        font-size: 17px;
+        margin-top: 45px;
+    
+    }
+    .footer{
+        
         padding-block-end: 10px;
-        
-        
+           
     }
     
-    .Icon{
-        block-size: 24px;
-        inline-size: 24px;
-        
-       
+    .icon{
+        block-size: 20px;
+        inline-size: 20px;  
     }
+
+    
+    
+}
+
+@media only screen and (min-width:350px) and (max-width: 400px){
+
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 18px;
+        margin-left: -47%;     
+    }
+
+    .heading{
+        font-size: 20px;    
+    }
+    
+    .copyright{
+        margin-left: -55%;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 20px;
+        inline-size: 20px;  
+    }
+
+    
+    
+}
+
+
+@media only screen and (min-width:401px) and (max-width: 500px){
+
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 19px;
+        margin-left: -41%;     
+    }
+
+    .copyright{
+        margin-left: -55%;
+        font-size: 18px;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 21px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 20px;
+        inline-size: 20px;  
+    }
+
+    
+    
+}
+
+@media only screen and (min-width:451px) and (max-width: 500px){
+
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 16px;
+        margin-left: -18%;     
+    }
+
+    .copyright{
+        margin-left: -12%;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 18px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 18px;
+        inline-size: 18px;  
+    }
+
+    
+    
+}
+
+
+
+@media only screen and (min-width:501px) and (max-width: 600px){
+
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 18px;
+        margin-left: -32%;     
+    }
+
+    .copyright{
+        margin-left: -70%;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 20px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 18px;
+        inline-size: 18px;  
+    }
+
+    
+    
+}
+
+
+@media only screen and (min-width:601px) and (max-width: 700px){
+
+
+    .footercontent{
+       flex-direction: column;
+        padding-inline-start: 210px;
+        font-size: 16px;
+        margin-left: -1%;     
+    }
+
+    .copyright{
+        margin-left: -10%;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 18px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 20px;
+        inline-size: 20px;  
+    }
+
+    
+    
+}
+
+@media only screen and (min-width:701px) and (max-width: 800px){
+
+
+    .footercontent{
+       
+        font-size: 22px;
+          
+    }
+
+    .copyright{
+       
+        font-size: 21px;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 24px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 26px;
+        inline-size: 26px;  
+    }
+
+    
+    
+}
+
+
+@media only screen and (min-width:801px) and (max-width: 900px){
+
+
+    .footercontent{
+       
+        font-size: 25px;
+          
+    }
+
+    .copyright{
+        font-size: 22px;
+        margin-top: 45px;
+    }
+
+    .heading{
+        font-size: 27px;    
+    }
+    
+    .footer{
+        
+        padding-block-end: 10px;
+           
+    }
+    
+    .icon{
+        block-size: 28px;
+        inline-size: 28px;  
+    }
+
     
     
 }
     
- @media screen and (min-inline-size:541px) and (max-inline-size: 840px){
 
-    .footerWhole{
-       
+@media only screen and (min-width:901px) and (max-width: 950px){
+
+
+    .footercontent{
         flex-direction: column;
-        padding-inline-start: 100px;
-        font-size: 17px;
-    
-        
+        padding-inline-start: 210px;
+        font-size: 35px;
+        margin-left: -15%;  
+    }
+
+    .copyright{
+        margin-left: -63%;
+        font-size: 32px; 
+        margin-top: 45px;   }
+
+    .heading{
+        font-size: 37px;    
     }
     
-    .Container{
-        font-size: 0.6em;
-        margin-inline-start: -1%;
-        margin-inline-end: -1%;
+    .footer{
+        
         padding-block-end: 10px;
-        
-        
+           
     }
     
-    .Icon{
-        block-size: 30px;
-        inline-size: 30px;
-        
-       
+    .icon{
+        block-size: 32px;
+        inline-size: 32px;  
+    }
+
+    
+    
+}
+    
+ 
+
+
+
+@media only screen and (min-width:1000px) and (max-width: 1199px){    
+    
+    .footercontent{  
+        padding-left: 10px;
+        font-size: 23px;
+        gap: 35px;     
+    }
+
+    heading{
+        font-size: 24px;    
+    }
+    
+    .footer{
+        font-size: 10px;
+        padding-block-end: 10px;    
+    }
+    
+    .icon{
+        block-size: 34px;
+        inline-size: 34px;  
+    }
+
+    .copyright{
+        font-size: 26px;
+        margin-top: 45px;
+    }
+
+    .contactus{
+        margin-top: 58px;
+    }
+    
+    .connect{
+        margin-top: 58px;
     }}
+       
 
-
-  
+    @media only screen and (min-width:1200px) and (max-width: 1400px){    
     
-    @media screen and (min-inline-size:841px) and (max-inline-size: 1280px){
-
-        .footerWhole{
+        .footerContent{  
+            padding-left: 10px;
+            font-size: 26px;
+            gap: 35px;     
+        }
+    
+        heading{
+            font-size: 28px;    
+        }
+        
+        .footer{
+            font-size: 10px;
+            padding-block-end: 10px;    
+        }
+        
+        .icon{
+            block-size: 32px;
+            inline-size: 32px;  
+        }
+    
+        .copyright{
+            font-size: 26px;
+            margin-top: 45px;
+        }
+    
+        .contactus{
+            margin-top: 58px;
+        }
+        
+        .connect{
+            margin-top: 58px;
+        }
            
-            
-            padding-inline-start: 100px;
-            font-size: 20px;
-        
-            
-        }
-        
-        .Container{
-            font-size: 0.6em;
-             padding-block-end: 10px;
-            
-            
-        }
-        
-        .Icon{
-            block-size: 24px;
-            inline-size: 24px;
-            
-           
-        }
-        
-        
-    }
-        
-    
-    
+}
+
+
+
+
+
+
+
+     
     
     
 
     
 
- */
+
 
 
 

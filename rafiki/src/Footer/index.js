@@ -6,36 +6,42 @@ import './index.css'
 const Footer = () =>{
     return(
         <div>
-            <section className='Container'>
-            <section  className='footerWhole'>
-            <section>
-            <h2>Contact Us</h2>
+            <div className='footer'>
+            <div className='footercontent'>
+
+            <div>
+            <h2 className='heading'>Contact Us</h2>
+            <div className='contactUs'>
             <p>+254 7012435678</p>
             <p>+254 790234567</p>
-            <p>westlands Highway</p>
+            <p>Westlands Highway</p>
             <p>Postal Address</p>
             <p>20500</p>
-            </section>
+            </div>
+            
+            </div>
 
-            <section>
-            <h2>About Us</h2>
-            <p>Vision</p>
-            <p>Mission</p>
-            <p>Goals</p>
-            </section>
+            <div className='aboutus'>
+            <h2 className='heading'>About Us</h2>
+            <p ><a href='vision' className='link'>Vision</a></p>
+            <p ><a href='mission' className='link'>Mission</a></p>
+            <p ><a href='goals' className='link'>Goals</a></p>
+            </div>
 
-             <section>
-            <h2>Connect With Us</h2>
-            <img src="/images/instagram.png" alt='Instagram Icon' className='Icon'  ></img>
-            <img src="/images/facebook.png" alt='Facebook Icon' className='Icon'></img>
-            <img src="/images/twitter.png" alt='Twitter Icon' className='Icon'></img>
-            <img src="/images/linkedin.png" alt='LinkedIn Icon' className='Icon'></img>
-            </section>
-            </section>
+             <div>
+            <h2 className='heading'>Connect With Us</h2>
+            <div className='connect'>
+            <img src="/images/instagram.png" alt='Instagram Icon' className='icon'  ></img>
+            <img src="/images/facebook.png" alt='Facebook Icon' className='icon'></img>
+            <img src="/images/twitter.png" alt='Twitter Icon' className='icon'></img>
+            <img src="/images/linkedin.svg" alt='LinkedIn Icon' className='icon'></img>
+            </div>
+            </div>
+            </div>
  
 
             <p className='copyright' > © Rafiki 2024</p>
-                </section>
+                </div>
             </div>
     )
     }

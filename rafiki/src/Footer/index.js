@@ -25,7 +25,7 @@ const Footer = () =>{
             <h2 className='heading'>About Us</h2>
             <p ><a href='vision' className='link'>Vision</a></p>
             <p ><a href='mission' className='link'>Mission</a></p>
-            <p ><a href='goals' className='link'>Goals</a></p>
+            <p ><a href='goal' className='link'>Goals</a></p>
             </div>
 
              <div>

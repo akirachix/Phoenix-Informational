@@ -1,13 +1,13 @@
- import Rafiki from "./About us";
+ import AboutUs from "./AboutUs";
 
-const About = ()=>{
+const App = ()=>{
   return(
-  <div className="about-text" >
-    <h1>About Us</h1>
-  <Rafiki/>
+  <div >
+    
+  <AboutUs/>
   </div>
 
   
   )
 };
-export default About;
+export default App;

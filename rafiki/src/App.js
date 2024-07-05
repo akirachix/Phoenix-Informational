@@ -1,11 +1,22 @@
-import LearnWithUs from "./LearnWithUs";
 
-const App = ()=>{
-  return(
-    <div>
-     <LearnWithUs/>
-      
-    </div>
-  )
+
+import LearnWithUs from "./LearnWithUs";
+import Footer from "./Footer";
+import "./index.css";
+
+ 
+const App = () =>{
+
+return(
+
+<div>
+<LearnWithUs/>
+<Footer/>
+</div>
+
+)
+
 }
+
+
 export default App;

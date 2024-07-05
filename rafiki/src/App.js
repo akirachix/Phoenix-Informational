@@ -1,5 +1,6 @@
+
 import About from './Header';
-// import Header from './Header';
+import LearnWithUs from "./LearnWithUs";
 import './index.css';
 
 
@@ -10,8 +11,13 @@ const App= ()  => {
     <div className='what-is-rafiki'>
       <h1 className='rafiki-heading'>What is Rafiki?</h1>
       <About/>
+         <LearnWithUs/>
     </div>
   )
 };
 
 export default App;
+
+
+
+

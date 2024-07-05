@@ -1,9 +1,10 @@
 
+
 import LearnWithUs from "./LearnWithUs";
 import Footer from "./Footer";
 import "./index.css";
 
-
+ 
 const App = () =>{
 
 return(
@@ -16,5 +17,6 @@ return(
 )
 
 }
+
 
 export default App;

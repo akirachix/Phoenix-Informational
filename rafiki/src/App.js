@@ -1,3 +1,4 @@
+ feature/footer
 
 import Footer from "./Footer"
 
@@ -11,6 +12,18 @@ return(
 
 )
 
+}
+
+
+import LearnWithUs from "./LearnWithUs";
+
+const App = ()=>{
+  return(
+    <div>
+     <LearnWithUs/>
+      
+    </div>
+  )
 }
 
 export default App;

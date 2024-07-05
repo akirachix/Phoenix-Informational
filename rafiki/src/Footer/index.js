@@ -10,7 +10,7 @@ const Footer = () =>{
             <div className='footercontent'>
 
             <div>
-            <h2 className='heading'>Contact Us</h2>
+            <h2 className='heading2'>Contact Us</h2>
             <div className='contactUs'>
             <p>+254 7012435678</p>
             <p>+254 790234567</p>
@@ -22,14 +22,14 @@ const Footer = () =>{
             </div>
 
             <div className='aboutus'>
-            <h2 className='heading'>About Us</h2>
+            <h2 className='heading2'>About Us</h2>
             <p ><a href='vision' className='link'>Vision</a></p>
             <p ><a href='mission' className='link'>Mission</a></p>
             <p ><a href='goal' className='link'>Goals</a></p>
             </div>
 
              <div>
-            <h2 className='heading'>Connect With Us</h2>
+            <h2 className='heading2'>Connect With Us</h2>
             <div className='connect'>
             <img src="/images/instagram.png" alt='Instagram Icon' className='icon'  ></img>
             <img src="/images/facebook.png" alt='Facebook Icon' className='icon'></img>

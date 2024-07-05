@@ -55,12 +55,12 @@
     .footercontent{
        flex-direction: column;
         padding-inline-start: 210px;
-        font-size: 18px;
+        font-size: 16px;
         margin-left: -49%;     
     }
 
-    .heading{
-        font-size: 20px;    
+    .heading2{
+        font-size: 18px;    
     }
     
     .copyright{
@@ -94,7 +94,7 @@
         margin-left: -47%;     
     }
 
-    .heading{
+    .heading2{
         font-size: 20px;    
     }
     
@@ -135,7 +135,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 21px;    
     }
     
@@ -169,7 +169,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 18px;    
     }
     
@@ -205,7 +205,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 20px;    
     }
     
@@ -240,7 +240,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 18px;    
     }
     
@@ -274,7 +274,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 24px;    
     }
     
@@ -308,7 +308,7 @@
         margin-top: 45px;
     }
 
-    .heading{
+    .heading2{
         font-size: 27px;    
     }
     
@@ -343,7 +343,7 @@
         font-size: 32px; 
         margin-top: 45px;   }
 
-    .heading{
+    .heading2{
         font-size: 37px;    
     }
     
@@ -374,7 +374,7 @@
         gap: 35px;     
     }
 
-    heading{
+    .heading2{
         font-size: 24px;    
     }
     
@@ -410,7 +410,7 @@
             gap: 35px;     
         }
     
-        heading{
+        .heading2{
             font-size: 28px;    
         }
         

@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
+import './index.css';
 import Students from '../images/students.avif'
 
-const index = () => {
+const LandingPage = () => {
   return (
     <div className='container'>
       <div className='landing-page-text'>
@@ -17,10 +17,10 @@ const index = () => {
       </div>
 
       <div className='landing-page-image'>
-        <img src={Students} alt='' className='image-students'/>
+        <img src={Students} alt='Two Learners' className='image-students'/>
       </div>
     </div>
   );
 }
 
-export default index;
+export default LandingPage;

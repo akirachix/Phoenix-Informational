@@ -1,6 +1,5 @@
-import Navbar from './components/navbar/Navbar';
-import logo from './logo.svg';
-import LandingPage from './components/landing-page/Index.js';
+import Navbar from './Navbar/index.js';
+import LandingPage from './Landing-page/Index.js';
 
 
 function App() {

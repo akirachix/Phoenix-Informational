@@ -14,20 +14,19 @@ const AboutUs = () =>{
             <h1>Mission</h1>
             <img className="mission-image" src="image/mission.png" alt="mission"/>
            <p className='mission'>Our mission is to provide a trusted and
-comprehensive online resources for
-learners in secondary schools to discover and explore concepts.
-We believe that education should be accessible,
-engaging, and relevant to everyday life. We
-strive to make this vision a reality through our platform.</p> 
+             comprehensive online resources for
+             learners in secondary schools to discover and explore concepts.
+             We believe that education should be accessible,
+             engaging, and relevant to everyday life. We
+             strive to make this vision a reality through our platform.</p> 
         </div>
 
         <div className="vision-text"> 
         <h1>Vision</h1>
         <img className="vision-image" src="/image/vision2.png" alt="vision"/>
         <p className='vision'>Our vision is to create a world-class
-educational environment
-that inspire and empowers learners of 
- all ages to achieve their goals.</p> 
+         educational environment that inspire and empowers learners of 
+          all ages to achieve their goals.</p> 
 
 </div>
 

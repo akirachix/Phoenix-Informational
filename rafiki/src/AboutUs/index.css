@@ -15,68 +15,49 @@
   .goal-image{
        width: 30%; 
       height: 27%;
-      /* margin-right: 45%; */
   }
   .about{
     padding-left:100px ;
     padding-right: 100px;
       display: flex;
       gap: 8%;
-    
-      /* margin-left: 27px; */
-      /* justify-content: center; */
-      
-      /* justify-content: space-evenly; */
-      /* justify-content: center; */
-      /* margin-left: 1.5%; */
-      /* margin-top: 1%; */
   }
-  /* .west{
-    text-align: center;
-    display: block;
-  } */
   .mission{
     text-align: left;
     font-size: 20px;
-    /* width: 500px; */
-    /* text-align: center; */
   }
   .vision{
-    /* text-align: center; */
     text-align: left;
     font-size: 20px;
-    /* margin-left: 100px; */
-    /* display: block; */
+  
   }
   .goal{
-    /* text-align: center; */
     text-align: left;
     font-size: 20px;
-    
   }
   .vision-text{
-    /* margin-right: 200px; */
     width: 50%;
     text-align: center;
   }
   .goal-text{
-    /* margin-right: 150px; */
     width: 50%;
+    height: auto;
     text-align: center;
   }
   .mission-text{
-    /* margin-left: 50px; */
     width: 50%;
     text-align: center;
   }
 
+
+
+  
   @media screen and (min-width:200px) and (max-width:299px){
     .about-text{
       margin-left:140px ;
       margin-top: 3%;
       font-size: 15px;
       align-items: center;
-      /* width: 80%; */
       text-align: center;
      }
     .mission-image{
@@ -95,18 +76,15 @@
         display: block;
         width: 100%;
         align-items: center;
-        /* margin-right: 150px; */
     }
   
     .mission{
-      /* width: 100%; */
       font-size: 20px;
       margin: -60px;
       margin-top: 20px;
 
     }
     .vision{
-      /* width: 100%; */
       font-size: 20px;
       margin: -60px;
       margin-top: 20px;
@@ -121,16 +99,13 @@
     .vision-text{
       width: 80%;
       margin-top: 80px;
-      /* margin-left: 6%; */
     }
     .goal-text{
       width: 80%;
       margin-top: 80px;
-      /* margin-left: 6%; */
     }
     .mission-text{
       width: 80%;
-      /* margin-left: 6%; */
     }
   }
 
@@ -207,21 +182,13 @@
         .goal-image{
              width: 50%; 
             height: 15%;
-            /* margin-right: 45%; */
         }
         .about{
             display: flex;
             flex-direction: column;
             gap: 5%;
             align-items: center;
-            /* margin-right: 160px; */
-            /* margin-left: 200px; */
-            /* align-items: center; */
             font-size: 20px;
-            /* align-content: center; */
-            /* justify-content: space-evenly; */
-            /* justify-content: center; */
-            /* margin-left: 5%; */
             margin-top: 3%;
         }
         .mission-text{
@@ -238,14 +205,12 @@
 
           }
         .mission{
-            /* margin-left: 70px; */
             font-size: 20px;
             margin: -90px;
             padding-top: 90px;
 
         }
         .goal{
-            /* margin-left: 50px; */
             font-size: 20px;
             margin: -90px;
             padding-top: 90px;
@@ -253,8 +218,6 @@
 
         }
         .vision{
-            /* text-align: left;
-            margin-left: 110px; */
             font-size: 20px;
             margin: -90px;
             padding-top: 90px;
@@ -265,14 +228,8 @@
                 display: flex;
                 flex-direction: column;
                 gap: 5%;
-                /* margin-right: 120px; */
                 align-items: center;
                 font-size: 20px;
-                /* margin-right: 80px; */
-                /* align-content: center; */
-                /* justify-content: space-evenly; */
-                /* justify-content: center; */
-                /* margin-left: 5%; */
                 margin-top: 3%;
             }
             .about-text{
@@ -291,38 +248,25 @@
             .goal-image{
                  width: 57%; 
                 height: 19.5%;
-                /* margin-right: 45%; */
+              
             }
-            .about{
-                /* display: flex; */
-                /* flex-wrap: wrap; */
-                /* justify-content: space-evenly; */
-                /* justify-content: center; */
-                /* margin-left: 5%; */
-                /* margin-top: 3%; */
-                /* margin-right: 80px; */
-            }
+           
 
             .mission{
                 font-size: 30px;
                 margin: -140px;
                 margin-top: 30px;
-                /* margin-left: 60px; */
             }
             .goal{
                 font-size: 30px;
                 margin: -140px;
                 margin-top: 21px;
                 margin-bottom: 20px;
-                /* margin-left: 10px; */
             }
             .vision{
                 font-size: 30px;
                 margin: -140px;
                 margin-top: 20px;
-                /* text-align: left; */
-                /* margin-left: 260px; */
-                
             }
             .mission-text{
                 font-size: 16px;
@@ -358,34 +302,20 @@
             height: 13%;
             width: 30%;
               object-fit: cover;
-
-              /* margin-right: 45%; */
           }
           .about{
               display: flex;
-              /* flex-direction: column; */
-              /* flex-wrap: wrap; */
-              /* justify-content: space-evenly; */
-              /* justify-content: center; */
-              /* margin-left: 5%; */
               margin-top: 3%;
-              /* margin-left: 400px; */
-              /* margin-right: 50px; */
+              
           }
           .mission{
             font-size: 20px;
-            /* margin: -90px; */
-            /* margin-left: 60px; */
         }
         .goal{
             font-size: 20px;
-
-            /* margin-left: 70px; */
         }
         .vision{
             font-size: 20px;
-            /* text-align: left;
-            margin-left: 180px; */
         }
 
         .mission-text{
@@ -420,32 +350,19 @@
                    width: 40%; 
                   height: 20%;
                   object-fit: cover;
-
-                  /* margin-right: 45%; */
               }
               .about{
                   display: flex;
-                  /* flex-direction: column; */
-                  /* flex-wrap: wrap; */
-                  /* justify-content: space-evenly; */
-                  /* justify-content: center; */
-                  /* margin-left: 5%; */
                   margin-top: 3%;
-                  /* margin-left: 400px; */
-                  /* margin-right: 50px; */
               }
               .mission{
                 font-size: 23px;
-                /* margin-left: 60px; */
             }
             .goal{
                 font-size: 23px;
-                /* margin-left: 70px; */
             }
             .vision{
                 font-size: 23px;
-                /* text-align: left;
-                margin-left: 180px; */
             }
           }
       

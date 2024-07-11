@@ -1,7 +1,8 @@
+
 import './index.css'
 const LearnWithUs = ()=>{
     return(
-        <div>
+        <div className='all-section'>
             <h1 className="heading">
                 Learn With Us 
             </h1 >

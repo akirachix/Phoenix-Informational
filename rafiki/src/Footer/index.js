@@ -31,10 +31,10 @@ const Footer = () =>{
              <div>
             <h2 className='heading2'>Connect With Us</h2>
             <div className='connect'>
-            <img src="/images/instagram.png" alt='Instagram Icon' className='icon'  ></img>
-            <img src="/images/facebook.png" alt='Facebook Icon' className='icon'></img>
-            <img src="/images/twitter.png" alt='Twitter Icon' className='icon'></img>
-            <img src="/images/linkedin.svg" alt='LinkedIn Icon' className='icon'></img>
+            <img src="images/instagram.png" alt='Instagram Icon' className='icon'  ></img>
+            <img src="images/facebook.png" alt='Facebook Icon' className='icon'></img>
+            <img src="images/twitter.png" alt='Twitter Icon' className='icon'></img>
+            <img src="images/linkedin.svg" alt='LinkedIn Icon' className='icon'></img>
             </div>
             </div>
             </div>

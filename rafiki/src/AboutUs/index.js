@@ -33,7 +33,7 @@ that inspire and empowers learners of
 
 <div className='goal-text' >
     <h1>Goal</h1>
-    <img className="goal-image" src="image/vision.jpg" alt="goal"></img>
+    <img className="goal-image" src="image/goal.jpg" alt="goal"></img>
     <p className='goal'>To empower learners to thrive
 in a rapidly changing world.
 </p>

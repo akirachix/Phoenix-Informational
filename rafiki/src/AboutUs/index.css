@@ -2,19 +2,19 @@
     text-align: center;
     margin-top: 3%;
     font-size: 16px;
-    /* color:rgb(63, 63, 109); */
+    color: rgb(24, 69, 129);
    }
   .mission-image{
-      height: 29%;
+      height: 27%;
       width: 27%;
   }
   .vision-image{
-      height: 29%;
+      height: 27%;
       width: 50%;
   }
   .goal-image{
        width: 30%; 
-      height: 29%;
+      height: 27%;
       /* margin-right: 45%; */
   }
   .about{
@@ -37,18 +37,21 @@
   } */
   .mission{
     text-align: left;
+    font-size: 20px;
     /* width: 500px; */
     /* text-align: center; */
   }
   .vision{
     /* text-align: center; */
     text-align: left;
+    font-size: 20px;
     /* margin-left: 100px; */
     /* display: block; */
   }
   .goal{
     /* text-align: center; */
     text-align: left;
+    font-size: 20px;
     
   }
   .vision-text{
@@ -69,7 +72,7 @@
 
   @media screen and (min-width:200px) and (max-width:299px){
     .about-text{
-      margin-left:40px ;
+      margin-left:140px ;
       margin-top: 3%;
       font-size: 15px;
       align-items: center;
@@ -112,6 +115,7 @@
       font-size: 20px;
       margin: -60px;
       margin-top: 20px;
+      margin-bottom: 20px;
       
     }
     .vision-text{
@@ -176,6 +180,7 @@
             display: flex;
             margin: -90px;
             padding-top: 90px;
+            margin-bottom: 20px;
         }
         .vision{
             font-size: 16px;
@@ -244,6 +249,7 @@
             font-size: 20px;
             margin: -90px;
             padding-top: 90px;
+            margin-bottom: 20px;
 
         }
         .vision{
@@ -307,6 +313,7 @@
                 font-size: 30px;
                 margin: -140px;
                 margin-top: 21px;
+                margin-bottom: 20px;
                 /* margin-left: 10px; */
             }
             .vision{
@@ -338,7 +345,7 @@
            }
           .mission-image{
               height: 14%;
-              width: 20%;
+              width: 25%;
               object-fit: cover;
 
           }
@@ -366,16 +373,17 @@
               /* margin-right: 50px; */
           }
           .mission{
-            font-size: 16px;
+            font-size: 20px;
             /* margin: -90px; */
             /* margin-left: 60px; */
         }
         .goal{
-            font-size: 16px;
+            font-size: 20px;
+
             /* margin-left: 70px; */
         }
         .vision{
-            font-size: 16px;
+            font-size: 20px;
             /* text-align: left;
             margin-left: 180px; */
         }
@@ -427,15 +435,15 @@
                   /* margin-right: 50px; */
               }
               .mission{
-                font-size: 20px;
+                font-size: 23px;
                 /* margin-left: 60px; */
             }
             .goal{
-                font-size: 20px;
+                font-size: 23px;
                 /* margin-left: 70px; */
             }
             .vision{
-                font-size: 20px;
+                font-size: 23px;
                 /* text-align: left;
                 margin-left: 180px; */
             }

@@ -12,11 +12,10 @@ const LearnWithUs = ()=>{
              <img src={Image} alt="studying" className="image"></img>
              <section className="text">
                <p>Learning students are happy students.
-               Happy students make happy parents.
-               We give parents a hand while
-               giving students the tools to succeed. </p>
+                   Happy students make happy parents.
+                   We give parents a hand while
+                   giving students the tools to succeed. </p>
              </section>
-             
             </section>
         </div>
     )

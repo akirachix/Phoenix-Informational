@@ -1,6 +1,8 @@
-
-
-import './index.css'
+import './index.css';
+import Facebook from '../images/facebook.png';
+import Instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import Linkedin from '../images/linkedin.png'
 
 
 const Footer = () =>{
@@ -30,12 +32,10 @@ const Footer = () =>{
 
              <div>
             <h2 className='heading2'>Connect With Us</h2>
-            <div className='connect'>
-            <img src="images/instagram.png" alt='Instagram Icon' className='icon'  ></img>
-            <img src="images/facebook.png" alt='Facebook Icon' className='icon'></img>
-            <img src="images/twitter.png" alt='Twitter Icon' className='icon'></img>
-            <img src="images/linkedin.svg" alt='LinkedIn Icon' className='icon'></img>
-            </div>
+            <img src={Instagram} alt='Instagram Icon' className='icon'  ></img>
+            <img src={Facebook} alt='Facebook Icon' className='icon'></img>
+            <img src={twitter} alt='Twitter Icon' className='icon'></img>
+            <img src={Linkedin} alt='LinkedIn Icon' className='icon'></img>
             </div>
             </div>
  

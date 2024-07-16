@@ -40,6 +40,7 @@ const Navbar = () => {
           Contact {navbartext === "contact" && <hr />}
         </li>
       </div>
+      
       <button className="icon" onClick={toggleMenu}>
         <FontAwesomeIcon icon={faBars} />
       </button>

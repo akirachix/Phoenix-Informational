@@ -1,5 +1,5 @@
 
-import About from './Header';
+import About from './About';
 import LearnWithUs from "./LearnWithUs";
 import './index.css';
 

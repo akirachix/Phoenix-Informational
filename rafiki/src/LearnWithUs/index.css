@@ -41,8 +41,9 @@
     .text {
         width: 100%; 
         padding: 20px; 
-        text-align: center; 
+        text-align: left; 
         font-size: 16px;
+        padding-left: 20px;
     }
     .image {
         height: 200px;
@@ -56,13 +57,14 @@
         gap: 3%;
     }
     .heading {
-        font-size: 28px;
+        font-size: 30px;
     }
     .text {
-        font-size: 18px; 
+        font-size: 22px; 
         padding-top: 30px; 
         padding-left: 30px; 
-        padding-right: 30px; 
+        padding-right: 30px;
+        width: 80%; 
     }
     .image {
         height: 300px;
@@ -74,13 +76,13 @@
 @media screen and (min-width: 900px) and (max-width: 1050px) {
     .learnWithUs {
         gap: 3%;
-        padding-left: 40px;
+        /* padding-left: 40px; */
     }
     .heading {
         font-size: 30px;
     }
     .text {
-        font-size: 18px;
+        font-size: 22px;
         padding-top: 60px; 
         padding-left: 40px; 
     }

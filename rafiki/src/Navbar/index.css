@@ -250,7 +250,7 @@
 
 }
 .logo{
-  width: 38%;
+  width: 48%;
 
 } 
 
@@ -265,20 +265,20 @@
 .nav-menu {
 list-style-type: none;
 display: flex;
-gap: 20px;
+gap: 24px;
 width: 80%;
 
 }
 .nav-logo p{
   color: #50C878;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
 
 }
 
 .nav-menu li {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 100;
 }
 

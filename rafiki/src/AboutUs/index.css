@@ -112,7 +112,7 @@
   @media screen and (min-width:300px) and (max-width:480px){
       .about-text{
           text-align: center;
-          font-size: 16px;
+          font-size: 22px;
          }
         .mission-image{
             height: 20%;
@@ -134,14 +134,14 @@
             
         }
         .mission-text{
-          font-size: 12px;
+          font-size: 16px;
         }
         .vision-text{
-          font-size: 12px;
+          font-size: 16px;
           padding-top: 90px;
         }
         .goal-text{
-          font-size: 12px;
+          font-size: 16px;
           padding-top: 90px;
 
         }
@@ -170,18 +170,19 @@
       .about-text{
           text-align: center;
           font-size: 16px;
+          
          }
         .mission-image{
-            height: 15%;
+            height: 25%;
             width: 25%;
         }
         .vision-image{
           width: 40%;
-            height: 15%;
+            height: 25%;
         }
         .goal-image{
              width: 50%; 
-            height: 15%;
+            height: 25%;
         }
         .about{
             display: flex;
@@ -192,22 +193,27 @@
             margin-top: 3%;
         }
         .mission-text{
-            font-size: 15px;
+            font-size: 20px;
+            width: 80%;
 
           }
           .vision-text{
             font-size: 20px;
             padding-top: 85px;
+            width: 80%;
           }
           .goal-text{
             font-size: 20px;
             padding-top: 85px;
+            width: 80%;
+            padding-left: 120px;
 
           }
         .mission{
             font-size: 20px;
             margin: -90px;
             padding-top: 90px;
+            
 
         }
         .goal{

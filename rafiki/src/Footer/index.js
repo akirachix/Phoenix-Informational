@@ -1,4 +1,7 @@
 import './index.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 import Facebook from '../images/facebook.png';
 import Instagram from '../images/instagram.png';
 import twitter from '../images/twitter.png';
@@ -29,20 +32,23 @@ const Footer = () =>{
             <p ><a href='mission' className='link'>Mission</a></p>
             <p ><a href='goal' className='link'>Goals</a></p>
             </div>
-
-             <div>
-            <h2 className='heading2'>Connect With Us</h2>
-            <img src={Instagram} alt='Instagram Icon' className='icon'  ></img>
-            <img src={Facebook} alt='Facebook Icon' className='icon'></img>
-            <img src={twitter} alt='Twitter Icon' className='icon'></img>
-            <img src={Linkedin} alt='LinkedIn Icon' className='icon'></img>
+             
+             
+        <div className='footer-icons'>
+            <h2>Contact</h2>
+            <div className='t'>
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </div>
+        </div>
             </div>
  
 
             <p className='copyright' > © Rafiki 2024</p>
                 </div>
-            </div>
+                </div>
     )
     }
 

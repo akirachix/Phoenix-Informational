@@ -169,7 +169,7 @@
   @media screen and (min-width:481px) and (max-width:768px){
       .about-text{
           text-align: center;
-          font-size: 16px;
+          font-size: 24px;
           
          }
         .mission-image{
@@ -189,44 +189,47 @@
             flex-direction: column;
             gap: 5%;
             align-items: center;
-            font-size: 20px;
+            font-size: 24px;
             margin-top: 3%;
         }
         .mission-text{
-            font-size: 20px;
+            font-size: 24px;
             width: 80%;
 
           }
           .vision-text{
-            font-size: 20px;
+            font-size: 24px;
             padding-top: 85px;
             width: 80%;
           }
           .goal-text{
-            font-size: 20px;
+            font-size: 24px;
             padding-top: 85px;
             width: 80%;
             padding-left: 120px;
 
           }
         .mission{
-            font-size: 20px;
+            font-size: 26px;
             margin: -90px;
             padding-top: 90px;
             
 
         }
         .goal{
-            font-size: 20px;
+            font-size: 24px;
             margin: -90px;
             padding-top: 90px;
             margin-bottom: 20px;
 
         }
         .vision{
-            font-size: 20px;
+            font-size: 26px;
             margin: -90px;
             padding-top: 90px;
+        }
+        .goal{
+          font-size: 26px;
         }
       }
         @media screen and (min-width:769px ) and (max-width:1023px){
@@ -290,7 +293,7 @@
         
           .about-text{
             text-align: center;
-            font-size: 20px;
+            font-size: 26px;
             margin-right: 20px;
            }
           .mission-image{
@@ -315,13 +318,13 @@
               
           }
           .mission{
-            font-size: 20px;
+            font-size: 24px;
         }
         .goal{
-            font-size: 20px;
+            font-size: 24px;
         }
         .vision{
-            font-size: 20px;
+            font-size: 24px;
         }
 
         .mission-text{

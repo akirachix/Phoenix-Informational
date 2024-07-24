@@ -32,14 +32,17 @@
     width: 850px;
     padding-left: 20px; 
 }
-
+.footer-icons{
+    justify-content: space-between;
+    gap: 5px;
+}
 
 @media screen and (max-width: 750px) {
     .heading {
         font-size: 30px;
     }
     .text {
-        width: 100%; 
+        width: 80%; 
         padding: 20px; 
         text-align: left; 
         font-size: 16px;
@@ -55,12 +58,13 @@
 @media screen and (min-width: 750px) and (max-width: 900px) {
     .learnWithUs {
         gap: 3%;
+        font-size: 24px;
     }
     .heading {
         font-size: 30px;
     }
     .text {
-        font-size: 22px; 
+        font-size: 28px; 
         padding-top: 30px; 
         padding-left: 30px; 
         padding-right: 30px;

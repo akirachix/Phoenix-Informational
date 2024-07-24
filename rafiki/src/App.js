@@ -1,21 +1,22 @@
-import LearnWithUs from "./LearnWithUs";
-import Footer from "./Footer";
-// import "./index.css";
-import AboutUs from "./AboutUs";
+import Navbar from './Navbar/index.js';
+import LandingPage from './Landing-page/Index.js';
+import AboutUs from '../src/AboutUs/index.js'
+import Footer from '../src/Footer/index.js'
+import LearnWithUs from '../src/LearnWithUs/index.js'
 
- 
-const App = () =>{
 
-return(
 
-<div>
-<LearnWithUs/>
-<AboutUs/>
-<Footer/>
-</div>
-
-)
-
+function App() {
+  return (
+    <div className="App">
+      <Navbar/>
+      <LandingPage/>
+      <AboutUs/>
+      <LearnWithUs/>
+      <Footer/>
+     
+    </div>
+  );
 }
 
 

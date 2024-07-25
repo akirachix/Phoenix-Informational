@@ -1,23 +1,26 @@
 
+import Navbar from './Navbar/index.js';
 import About from './About';
 import LearnWithUs from "./LearnWithUs";
+import AboutUs from '../src/AboutUs/index.js';
+import Footer from '../src/Footer/index.js';
+import LandingPage from './Landing-page/Index.js';
 import './index.css';
 
-
-
-
-const App= ()  => {
+function App() {
   return (
-    <div className='what-is-rafiki'>
-      <h1 className='rafiki-heading'>What is Rafiki?</h1>
+    <div className="App">
+      <Navbar/>
+      <LandingPage/>
+      <AboutUs/>
       <About/>
-         <LearnWithUs/>
+      <LearnWithUs/>
+      <Footer/>
+     
     </div>
-  )
-};
-
+  );
+}
 export default App;
-
 
 
 

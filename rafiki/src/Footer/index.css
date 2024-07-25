@@ -1,0 +1,262 @@
+
+
+
+.footercontent {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 2%;
+    font-size: 24px;
+  }
+  
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .link:hover {
+    color: blue;
+  }
+  
+  .contactus {
+    margin-top: 35px;
+  }
+  
+  .connect {
+    margin-top: 35px;
+  }
+  
+  .footer {
+    background-color: #d9d9d9;
+    margin-top: 24px;
+    padding: 10px 0;
+    text-align: center; 
+  }
+  .footer-icons{
+  
+  }
+
+  .t{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+ 
+  @media screen and (max-width: 299px) {
+    .footercontent {
+      flex-direction: column;
+      align-items: end;
+      padding-left: 50px;
+      font-size: 14px;
+      text-align: left;
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .copyright {
+      margin-left: 0;
+      margin-top: 25px;
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 399px) {
+    .footercontent {
+      flex-direction: column;
+      padding-left: 50px;
+      font-size: 16px;
+      text-align: left;
+      
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .copyright {
+      margin-left: 0;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .heading2{
+font-size: 20px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 599px) {
+    .footercontent {
+      flex-direction: column;
+      align-items: left;
+      padding-left: 60px;
+      font-size: 20px;
+      text-align: left;
+
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .copyright {
+      margin-left: -10%;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 600px) and (max-width: 799px) {
+    .footercontent {
+      flex-direction: column;
+      align-items: left;
+      padding-left: 20px;
+      font-size: 24px;
+      text-align: left;
+      padding-left: 150px;
+    }
+  
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .copyright {
+      margin-left: -15%;
+      margin-top: 25px;
+      font-size: 20px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 999px) {
+    .footercontent {
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 20px;
+      font-size: 22px;
+      text-align: left;
+    }
+  
+    .icon {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .copyright {
+      font-size: 20px;
+      margin-top: 25px;
+    }
+  
+    .contactus,
+    .connect {
+      margin-top: 25px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .footercontent {
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 10px;
+      font-size: 18px;
+      text-align: left;
+    }
+  
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .copyright {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  
+    .contactus,
+    .connect {
+      margin-top: 30px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+
+   @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .footercontent {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 20px;
+      font-size: 20px;
+      text-align: left;
+    }
+  
+    .icon {
+     
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+    }
+  
+    .copyright {
+      font-size: 16px;
+      margin-top: 35px;
+    }
+  
+    .contactus,
+    .connect {
+      margin-top: 35px;
+    }
+    .t{
+      display: flex;
+      gap: 20px;
+    }
+  }
+  
+
+
+
+     
+    
+    
+
+    
+
+
+
+
+
+
+    
+  

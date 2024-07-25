@@ -1,0 +1,379 @@
+.about-text{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 24px;
+    color: rgb(24, 69, 129);
+   }
+  .mission-image{
+      height: 27%;
+      width: 27%;
+  }
+  .vision-image{
+      height: 27%;
+      width: 50%;
+  }
+  .goal-image{
+       width: 30%; 
+      height: 27%;
+  }
+  .about{
+    padding-left:100px ;
+    padding-right: 100px;
+      display: flex;
+      gap: 8%;
+  }
+  .mission{
+    text-align: left;
+    font-size: 20px;
+  }
+  .vision{
+    text-align: left;
+    font-size: 24px;
+  
+  }
+  .goal{
+    text-align: left;
+    font-size: 24px;
+  }
+  .vision-text{
+    width: 50%;
+    text-align: center;
+  }
+  .goal-text{
+    width: 50%;
+    height: auto;
+    text-align: center;
+  }
+  .mission-text{
+    width: 50%;
+    text-align: center;
+  }
+
+
+
+  
+  @media screen and (min-width:200px) and (max-width:299px){
+    .about-text{
+      margin-left:140px ;
+      margin-top: 3%;
+      font-size: 15px;
+      align-items: center;
+      text-align: center;
+     }
+    .mission-image{
+        height: 25%;
+        width: 20%;
+    }
+    .vision-image{
+        height: 25%;
+        width: 40%;
+    }
+    .goal-image{
+         width: 20%; 
+        height: 25%;
+    }
+    .about{
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+  
+    .mission{
+      font-size: 20px;
+      margin: -60px;
+      margin-top: 20px;
+
+    }
+    .vision{
+      font-size: 20px;
+      margin: -60px;
+      margin-top: 20px;
+    }
+    .goal{
+      font-size: 20px;
+      margin: -60px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+    }
+    .vision-text{
+      width: 80%;
+      margin-top: 80px;
+    }
+    .goal-text{
+      width: 80%;
+      margin-top: 80px;
+    }
+    .mission-text{
+      width: 80%;
+    }
+  }
+
+  @media screen and (min-width:300px) and (max-width:480px){
+      .about-text{
+          text-align: center;
+          font-size: 22px;
+         }
+        .mission-image{
+            height: 20%;
+            width: 40%;
+        }
+        .vision-image{
+            height: 20%;
+            width: 80%;
+        }
+        .goal-image{
+             width: 50%; 
+            height: 20%;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3%;
+            
+        }
+        .mission-text{
+          font-size: 16px;
+        }
+        .vision-text{
+          font-size: 16px;
+          padding-top: 90px;
+        }
+        .goal-text{
+          font-size: 16px;
+          padding-top: 90px;
+
+        }
+        .mission{
+            font-size: 16px;
+            padding-top: 90px;
+            margin: -90px;
+        }
+        .goal{
+            font-size: 16px;
+            display: flex;
+            margin: -90px;
+            padding-top: 90px;
+            margin-bottom: 20px;
+        }
+        .vision{
+            font-size: 16px;
+            display: flex;
+            margin: -90px;
+            padding-top: 90px;
+        }
+  
+      
+  }
+  @media screen and (min-width:481px) and (max-width:768px){
+      .about-text{
+          text-align: center;
+          font-size: 24px;
+          
+         }
+        .mission-image{
+            height: 25%;
+            width: 25%;
+        }
+        .vision-image{
+          width: 40%;
+            height: 25%;
+        }
+        .goal-image{
+             width: 50%; 
+            height: 25%;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            align-items: center;
+            font-size: 24px;
+            margin-top: 3%;
+        }
+        .mission-text{
+            font-size: 24px;
+            width: 80%;
+
+          }
+          .vision-text{
+            font-size: 24px;
+            padding-top: 85px;
+            width: 80%;
+          }
+          .goal-text{
+            font-size: 24px;
+            padding-top: 85px;
+            width: 80%;
+            padding-left: 120px;
+
+          }
+        .mission{
+            font-size: 26px;
+            margin: -90px;
+            padding-top: 90px;
+            
+
+        }
+        .goal{
+            font-size: 24px;
+            margin: -90px;
+            padding-top: 90px;
+            margin-bottom: 20px;
+
+        }
+        .vision{
+            font-size: 26px;
+            margin: -90px;
+            padding-top: 90px;
+        }
+        .goal{
+          font-size: 26px;
+        }
+      }
+        @media screen and (min-width:769px ) and (max-width:1023px){
+            .about{
+                display: flex;
+                flex-direction: column;
+                gap: 5%;
+                align-items: center;
+                font-size: 20px;
+                margin-top: 3%;
+            }
+            .about-text{
+              text-align: center;
+              font-size: 20px;
+             }
+            .mission-image{
+                height: 20%;
+                width: 38%;
+            }
+            .vision-image{
+                height: 20%;
+                width: 60%;
+                
+            }
+            .goal-image{
+                 width: 57%; 
+                height: 19.5%;
+              
+            }
+           
+
+            .mission{
+                font-size: 30px;
+                margin: -140px;
+                margin-top: 30px;
+            }
+            .goal{
+                font-size: 30px;
+                margin: -140px;
+                margin-top: 21px;
+                margin-bottom: 20px;
+            }
+            .vision{
+                font-size: 30px;
+                margin: -140px;
+                margin-top: 20px;
+            }
+            .mission-text{
+                font-size: 16px;
+              }
+              .vision-text{
+                font-size: 16px;
+                margin-top: 150px;
+              }
+              .goal-text{
+                font-size: 16px;
+                margin-top: 130px;
+              }
+        }
+        @media screen and (min-width:1024px ) and (max-width:1124px){
+        
+          .about-text{
+            text-align: center;
+            font-size: 26px;
+            margin-right: 20px;
+           }
+          .mission-image{
+              height: 14%;
+              width: 25%;
+              object-fit: cover;
+
+          }
+          .vision-image{
+            height: 13%;
+            width: 40%;
+              object-fit: cover;
+          }
+          .goal-image{
+            height: 13%;
+            width: 30%;
+              object-fit: cover;
+          }
+          .about{
+              display: flex;
+              margin-top: 3%;
+              
+          }
+          .mission{
+            font-size: 24px;
+        }
+        .goal{
+            font-size: 24px;
+        }
+        .vision{
+            font-size: 24px;
+        }
+
+        .mission-text{
+          font-size: 14px;
+        }
+        .vision-text{
+          font-size: 14px;
+        }
+        .goal-text{
+          font-size: 14px;
+        }
+      }
+  
+        @media screen and (min-width:1125px ) and (max-width:1300px){
+            .about-text{
+                text-align: center;
+                font-size: 20px;
+                margin-right: 20px;
+               }
+              .mission-image{
+                  height: 20%;
+                  width: 30%;
+                  object-fit: cover;
+
+              }
+              .vision-image{
+                  height: 20%;
+                  width: 50%;
+                  object-fit: cover;
+              }
+              .goal-image{
+                   width: 40%; 
+                  height: 20%;
+                  object-fit: cover;
+              }
+              .about{
+                  display: flex;
+                  margin-top: 3%;
+              }
+              .mission{
+                font-size: 23px;
+            }
+            .goal{
+                font-size: 23px;
+            }
+            .vision{
+                font-size: 23px;
+            }
+          }
+      
+  
+  

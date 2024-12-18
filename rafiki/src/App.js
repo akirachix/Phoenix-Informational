@@ -1,10 +1,11 @@
+
 import Navbar from './Navbar/index.js';
+import About from './About';
+import LearnWithUs from "./LearnWithUs";
+import AboutUs from '../src/AboutUs/index.js';
+import Footer from '../src/Footer/index.js';
 import LandingPage from './Landing-page/Index.js';
-import AboutUs from '../src/AboutUs/index.js'
-import Footer from '../src/Footer/index.js'
-import LearnWithUs from '../src/LearnWithUs/index.js'
-
-
+import './index.css';
 
 function App() {
   return (
@@ -12,12 +13,14 @@ function App() {
       <Navbar/>
       <LandingPage/>
       <AboutUs/>
+      <About/>
       <LearnWithUs/>
       <Footer/>
      
     </div>
   );
 }
-
-
 export default App;
+
+
+
